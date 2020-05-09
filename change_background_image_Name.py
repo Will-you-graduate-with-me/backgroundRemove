@@ -6,7 +6,7 @@ def find_and_change(path):
         unit_names = os.listdir(path+part+"/")
         print(unit_names)
         for unit in unit_names:
-            single_image = path+part+"/"+unit+"/"+"B.png"
+            single_image = path+part+"/"+unit+"/"+"A.png"
             print(single_image)
             string = "p"+part[-1:]+"u"+unit[-1:]+".png"
             print(string)

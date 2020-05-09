@@ -7,6 +7,6 @@ def find_background_image(path):
     # 유닛 번호 추출
     unit = file_name[4:5]
 
-    background_image_path = './resource/backgroundImage/Part' + part + "/Unit" + unit + "/A.png"
+    background_image_path = './resource/backgroundImage/Part' + part + "/Unit" + unit + "/B.png"
     print(background_image_path)
     return background_image_path
